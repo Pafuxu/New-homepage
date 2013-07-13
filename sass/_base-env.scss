@@ -1,0 +1,28 @@
+/* ==========================================================================
+   Custom User Setting
+   ========================================================================== */
+
+/**
+ * Base envíronment
+ * 黄金比: 1.618, 白銀比: 1.414
+ */
+
+$base_color: #2b2b2b;
+$base_font_family: "Helvetica Neue",Helvetica,sans-serif;
+$mono_font_family: "source-code-pro",Consolas,Menlo,monospace;
+$base_font_size: 16px; /* px */
+$base_space_length: 1.73205;
+
+body{line-height:1.73205;font-family:$base_font_family;font-size:$base_font_size;color:#2b2b2b;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,h5,h6{text-rendering:optimizeLegibility}
+a{color:#949495}
+ul,ol{padding-left:1.73205em}
+ul ul,ul ol,ol ul,ol ol{margin:0}
+dl dl{margin:0}
+pre{margin-left:1em;line-height:1.4;font-family:$base_font_family}
+code,kbd,samp,var{font-family:$mono_font_family}
+table{width:100%;border-spacing:0;border-style:solid;border-width:1px 0 0 1px;border-color:#2b2b2b}
+table th,table td{padding:0.5em;border-style:solid;border-width:0 1px 1px 0;border-color:#2b2b2b;text-align:left;vertical-align:top;word-wrap:break-word}
+hr{margin:3.4641em 0}
+address{font-style:normal}
+figure img{max-width:100%}
